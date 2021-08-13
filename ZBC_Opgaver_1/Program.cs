@@ -1,6 +1,7 @@
 ﻿using System;
 using System.Collections.Generic;
 using System.IO;
+using System.Reflection;
 using System.Threading;
 
 namespace ZBC_Opgaver_1
@@ -10,14 +11,9 @@ namespace ZBC_Opgaver_1
         static void Main(string[] args)
         {
             // Main body of the program
-            //BasicProgramming.StartProgram();
+            BasicProgramming.StartProgram();
 
-            DriveInfo cDrive = new DriveInfo(System.Environment.CurrentDirectory);
-            var driverPath = cDrive.RootDirectory;
-
-            Console.WriteLine(Environment.CurrentDirectory);
-            Console.WriteLine(driverPath);
-
+            //Console.WriteLine(Path.Combine(Environment.CurrentDirectory, "Wave/Anthems/usa_anthem.wav"));
             Console.WriteLine();
             Console.ReadLine();
         }

@@ -39,7 +39,7 @@ namespace ZBC_Opgaver_1
                 Console.WriteLine("14 - Arrays og Bubblesort");
                 Console.WriteLine("15 - Array og Matematik");
                 Console.WriteLine("16 - Lotto");
-                Console.WriteLine("17 - Mozard");
+                Console.WriteLine("17 - Mozart");
 
                 Console.WriteLine("\n\r/////////  METHODS  ////////\n\r");
 

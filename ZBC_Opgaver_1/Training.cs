@@ -161,8 +161,8 @@ namespace ZBC_Opgaver_1
             // Hide the cursor
             Console.CursorVisible = false;
 
-            // Make it feel like the Superbowl half time
-            SoundPlayer player = new SoundPlayer("C:/dev/hoved/ZBC_Opgaver_1/ZBC_Opgaver_1/bin/Debug/Wave/Anthems/usa_anthem.wav");
+            // Make it feel like the Superbowl half time           
+            SoundPlayer player = new SoundPlayer(Path.Combine(Environment.CurrentDirectory, "Wave/Anthems/usa_anthem.wav"));
             player.PlaySync();
 
            

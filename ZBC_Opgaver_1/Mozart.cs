@@ -13,10 +13,11 @@ namespace ZBC_Opgaver_1
     {
         private static int[,] MinuetArray;
         private static int[,] TrioArray;
-        private static string FilesFolder = "C:/dev/hoved/ZBC_Opgaver_1/ZBC_Opgaver_1/bin/Debug/Wave";
+        private static string FilesFolder { get; set; }
 
         public static void MozartProgram()
         {
+            FilesFolder = Path.Combine(Environment.CurrentDirectory, "Wave");
             InitializeArrays();
 
             // CODE THAT WORKS WITH NUGET PACKATE NAudio
